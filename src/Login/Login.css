@@ -1,0 +1,29 @@
+.mainDiv{
+    background-color: aquamarine;
+    padding: 20%;
+    text-align: center;
+
+}
+.googleBtn img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.list{
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: rgba(241, 255, 49, 0.178);
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px;
+}
+.googleBtn{
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+    
+    .mainDiv{
+        background-color: aqua;
+    }
+    .list{
+        margin-top: 30%;
+    }
+  }

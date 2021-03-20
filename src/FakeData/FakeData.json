@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name": "BIKE",
+        "discription": "this is grate ride ever",
+        "image": "https://i.postimg.cc/cCYMmDfN/Frame.png",
+        "price": 100
+      },
+
+      {
+        "id": 2,
+        "name": "BUS",
+        "discription": "this is grate ride ever",
+        "image": "https://i.postimg.cc/1RNHsz2Y/Frame-1.png",
+        "price": 80
+      },
+      
+    {
+      "id": 3,
+      "name": "CAR",
+      "discription": "this is grate ride ever",
+      "image": "https://i.postimg.cc/9F5BMhjX/Frame-2.png",
+      "price": 50
+    },
+
+    {
+      "id": 4,
+      "name": "TRAIN",
+      "discription": "this is grate ride ever",
+      "image": "https://i.postimg.cc/02Y0KB8Y/Group.png",
+      "price": 30
+    }
+  ]

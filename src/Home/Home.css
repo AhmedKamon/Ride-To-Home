@@ -1,0 +1,43 @@
+.home{
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.transportation{
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 20px;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .transportation{
+       margin-top: 70%;
+       place-content: center;
+       padding-bottom: 10px;
+    }
+    .transports{
+        padding-bottom: 10px;
+    }
+    .containers{
+        text-align: center;
+    }
+    .link{
+        text-align: center;
+    }
+  }
