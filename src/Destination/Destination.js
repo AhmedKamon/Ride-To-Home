@@ -7,6 +7,7 @@ import { faUserTie, faUserFriends, faUsers } from '@fortawesome/free-solid-svg-i
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 import GoogleMap from '../GoogleMap/GoogleMap';
 import GoogleMapImg from '../images/Map.png'
+import { Link } from 'react-router-dom';
 
 const Destination = () => {
     const { vehicleId } = useParams()
@@ -24,8 +25,13 @@ const Destination = () => {
                 <div className='row justify-content-md-between bodyPart'>
                     <div>
                         <div className="location">
-                            <h2 style={{ fontWeight: 'bold', color: 'orange' }}>Mirpur 1</h2>
-                            <h2 style={{ fontWeight: 'bold', color: 'orange' }}>Dhanmondi</h2>
+                            <input type="text" name="" id="" placeholder='Mirpur 1' />
+                            <br/>
+                            <br/>
+                            <input type="text" name="" id="" placeholder='Dhanmondi' />
+                            <br/>
+                            <br/>
+                            <Link to='/selectArea'><input type="button" value="Search Area"/></Link>
                         </div>
                         <div className='row mt-5'>
                             <img className='way' src={image} alt="" /> <h5><span style={{ fontWeight: 'bold', color: 'orange' }}>{name}</span> <FontAwesomeIcon icon={faUserTie} />  $15</h5>

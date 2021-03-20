@@ -34,7 +34,7 @@ function App() {
         <PrivateRoute path='/destination/:vehicleId'>
           <Destination></Destination>
         </PrivateRoute>
-        <Route path='/area'>
+        <Route path='/selectArea'>
           <SelectArea></SelectArea>
         </Route>
         <Route path='/login'>
